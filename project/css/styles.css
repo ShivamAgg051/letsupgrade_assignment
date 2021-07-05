@@ -1,0 +1,135 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: "Merriweather", serif;
+}
+
+h1 {
+  font-size: 5.625rem;
+  color: #66bfbf;
+  margin-top: 50px;
+  margin-bottom: -10px;
+  font-family: "Sacramento", cursive;
+}
+
+h2 {
+  color: #66bfbf;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2rem;
+  font-weight: normal;
+}
+
+h3 {
+  color: #11999e;
+  font-family: "Montserrat", sans-serif;
+}
+.pro {
+  text-decoration: underline;
+}
+
+.top-container {
+  background-color: #e4f9f5;
+  position: relative;
+  padding-top: 100px;
+  margin-bottom: 80px;
+}
+
+.mid-container {
+}
+
+.bottom-container {
+  color: #11999e;
+  background-color: #66bfbf;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.skill-img {
+  width: 25%;
+  float: left;
+  padding-right: 30px;
+}
+
+.skill-img2 {
+  width: 25%;
+  float: right;
+  padding-left: 30px;
+}
+
+.profile {
+  width: 35%;
+  align-content: center;
+  margin: auto;
+}
+
+hr {
+  border-style: none;
+  border-top: dotted;
+  border-color: #eaf6f6;
+  border-width: 7px;
+  width: 100px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.contact-me {
+  width: 35%;
+  margin: auto;
+}
+/* 
+.btn {
+  margin-top: 100px;
+  margin-bottom: 100px;
+} */
+
+.copyright {
+  margin-top: 40px;
+  color: #eaf6f6;
+}
+
+.footer-link {
+  color: #1199e1;
+  margin-left: 40px;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+}
+
+.btn {
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 2px;
+  border-radius: 8px;
+  color: white;
+  font-family: "Merriweather", serif;
+  font-size: 20px;
+  font-weight: 100;
+  padding: 4px;
+  background-color: #11999e;
+  /* -webkit-box-shadow: 1px 1px 20px 0 #000000;
+  -moz-box-shadow: 1px 1px 20px 0 #000000;
+  box-shadow: 1px 1px 20px 0 #000000; */
+  /* border: solid #337fed 0; */
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  margin-top: 50px;
+}
